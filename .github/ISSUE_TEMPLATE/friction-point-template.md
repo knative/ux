@@ -1,6 +1,6 @@
 ---
-name: 📄 Friction Point
-about: A one-off problem with your experience using Knative
+name: 📄 Usability Issue Template
+about: A one-off problem with your experience using Knative (if you're not sure where to submit an issue, use this template) 
 title: ''
 labels: kind/friction-point
 assignees: ''
