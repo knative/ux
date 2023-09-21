@@ -2,6 +2,9 @@
 
 User Experience concerns across Knative components
 
+Note: we are currently starting a new collaborative initiative to make designers feel more welcome in Knative! If you are interested in learning more or in participating, we would
+love to talk to you in [#knative-ux](https://cloud-native.slack.com/messages/knative-ux).
+
 | Artifact                   | Link                                                                                                                                                    |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                     |
@@ -10,7 +13,7 @@ User Experience concerns across Knative components
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1NSlGHen5Dh6c2A0LGavGWibddWrlSLV_PbEbMpNjSTU/edit?usp=sharing)                                               |
 | Roadmap                    | [Roadmap](https://github.com/orgs/knative/projects/20)                                                                                                  |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1XzZGqV7yHo38d_l7rH1uSIrbQp3JlbBP?usp=sharing)                                                          |
-| Slack Channel              | [#user-experience](https://slack.knative.dev/messages/user-experience)                                                                                  |
+| Slack Channel              | [#knative-ux](https://cloud-native.slack.com/messages/knative-ux)                                                                                  |
 | Github Repository          | [knative/ux](https://github.com/knative/ux)                                                                                                       |
 | Github Team WG leads       | [@knative/ux-wg-leads](https://github.com/orgs/knative/teams/ux-wg-leads/members)                                                                       |
 
