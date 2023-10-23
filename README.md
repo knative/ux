@@ -13,13 +13,13 @@ love to talk to you in [#knative-ux](https://cloud-native.slack.com/messages/kna
 | Meeting Notes | [Notes](https://docs.google.com/document/d/1VCObP1IQFPDGzGG5KIgytQwX7RrU0tyeB7FGjkY0pPk/edit) |
 | Roadmap                    | [Roadmap](https://github.com/orgs/knative/projects/71)                                                                                                  |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1XzZGqV7yHo38d_l7rH1uSIrbQp3JlbBP?usp=sharing)                                                          |
-| Slack Channel              | [#knative-ux](https://cloud-native.slack.com/messages/knative-ux) (need to join [CNCF Slack](https://slack.cncf.io/) for the first time)                         |
+| Slack Channel              | [#knative-ux](https://cloud-native.slack.com/messages/knative-ux) (need to join [CNCF Slack](https://communityinviter.com/apps/cloud-native/cncf) for the first time)                         |
 | Github Repository          | [/ux](https://github.com/knative/ux)                                                                                                                             |                                                                                                  |
-| Github Team WG leads       | [@knative/ux-wg-leads](https://github.com/orgs/knative/teams/ux-wg-leads/members)                                                                       |
+| Github Team WG leads       | [@knative/ux-wg-leads](https://github.com/orgs/knative/teams/ux-wg-leads/members) |
 
-| &nbsp;                                                               | Leads            | Company          | Profile                                                  |
-| -------------------------------------------------------------------- | ---------------- | ---------------- | -------------------------------------------------------- |
-| <img width="30px" src="https://github.com/cali0707.png">             | Calum Murray     | Red Hat          | [cali0707](https://github.com/cali0707)                  |
-| <img width="30px" src="https://github.com/zainabhusain227.png">      | Zainab Husain    | OCAD University  | [zainabhusain227](https://github.com/zainabhusain227)    |
-| <img width="30px" src="https://github.com/mmejia02.png">             | Mariana Mejia    | OCAD University  | [mmejia02](https://github.com/mmejia02)                  |
-| <img width="30px" src="https://github.com/Leo6Leo.png">              | Leo Li           | Red Hat          | [Leo6Leo](https://github.com/Leo6Leo)                     |
+| &nbsp;                                                               | Leads            | Company          | Profile                                                  | Role           |
+| -------------------------------------------------------------------- | ---------------- | ---------------- | -------------------------------------------------------- | --------------- |
+| <img width="30px" src="https://github.com/cali0707.png">             | Calum Murray     | Red Hat          | [cali0707](https://github.com/cali0707)                  | Product Lead   |
+| <img width="30px" src="https://github.com/zainabhusain227.png">      | Zainab Husain    | OCAD University  | [zainabhusain227](https://github.com/zainabhusain227)    | Design Lead    |
+| <img width="30px" src="https://github.com/mmejia02.png">             | Mariana Mejia    | OCAD University  | [mmejia02](https://github.com/mmejia02)                  | Design Lead    |
+| <img width="30px" src="https://github.com/Leo6Leo.png">              | Leo Li           | Red Hat          | [Leo6Leo](https://github.com/Leo6Leo)                     | Tech Lead      |
