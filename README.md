@@ -23,3 +23,9 @@ love to talk to you in [#knative-ux](https://cloud-native.slack.com/messages/kna
 | <img width="30px" src="https://github.com/zainabhusain227.png">      | Zainab Husain    | OCAD University  | [zainabhusain227](https://github.com/zainabhusain227)    | Design Lead    |
 | <img width="30px" src="https://github.com/mmejia02.png">             | Mariana Mejia    | OCAD University  | [mmejia02](https://github.com/mmejia02)                  | Design Lead    |
 | <img width="30px" src="https://github.com/Leo6Leo.png">              | Leo Li           | Red Hat          | [Leo6Leo](https://github.com/Leo6Leo)                     | Tech Lead      |
+
+## Contributing
+
+If you are interested in contributing to Knative generally, take a look at [CLOTRIBUTOR](https://clotributor.dev/search?project=knative&page=1)
+for a list of help wanted issues across the project. If you are more specifically interested in UX contributions, please
+come to our next meeting or talk to us on slack!
