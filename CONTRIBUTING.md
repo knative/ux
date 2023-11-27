@@ -26,6 +26,8 @@ issues labelled `kind/website` have to do with the design of the website.
 When you find an issue which you are interested in, comment `/assign` and a bot will assign the issue to you! Feel free to ask any questions you have either on the GitHub issue or
 in the [#knative-ux](https://cloud-native.slack.com/archives/C05MW1AT1T8) slack channel. We are here to help you!
 
+Examples of current issues being worked on include: website color scheme redesign, user survey design and analysis, and other user research methods such as card sorting.
+
 ## Designer - developer handoff
 
 Often, the issues being worked on will need a developer to actually program the changes. In these cases, it is up to you to open an issue on the appropriate GitHub repository
