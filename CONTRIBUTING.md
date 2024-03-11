@@ -38,5 +38,5 @@ like if you wanted to work on an issue titled "re-design website buttons".
 3. Once you have a design you are happy with or that you want feedback on, you will open a Pull Request to this repository with the artifacts included.
 4. The design leads or other contributors in the working group will leave feedback on the design, and possible ask you to make some changes.
 5. At the bi-weekly working group meeting, everyone at the meeting will work together to make a final decision on the design. If the group agrees on the changes, it will be merged into the repo.
-6. Now, you will go to the repository for the website (knative/docs), and open an issue with the final design asking someone to update the buttons accordingly. If your
+6. Now, you can go to the repository for the website (knative/docs), and open an issue with the final design asking someone to update the buttons accordingly. If your
 change is not for the website and you are not sure which repository it should go to, please ask the WG tech lead for help. 
