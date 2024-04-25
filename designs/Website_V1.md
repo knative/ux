@@ -9,3 +9,11 @@ Aesthetic/usability changes:
 
 Content changes-
 - Changed the second block of information (the one in the blue background) need to "Know more" button to "Knative Concepts" that will take you to the concepts page
+
+## Current design:
+
+![](Website_V0.png)
+
+## Proposed design:
+
+![](Website_V1.png)
