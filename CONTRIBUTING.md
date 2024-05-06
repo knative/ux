@@ -41,3 +41,21 @@ button design from Figma)
 5. Once the design leads are happy with your design, they will let you know on the issue. 
 6. Now, you will go to the repository for the website (knative/docs), and open an issue with the final design asking someone to update the buttons accordingly. If your
 change is not for the website and you are not sure which repository it should go to, please ask the WG tech lead for help. 
+
+ ## Social media Post Guidelines
+ - You can contribute to knative  create visuals post according to the upcoming events.
+ - You can also contribute with writing context for upcoming events.
+
+ ## important points for creating visuals (designes) 
+
+ ### twitter 
+ - The Twitter design should be in this size: 1080x1080 (square)
+ - Headline font size (11px)
+ - Speakers font size (6px)
+ - Visuals (designe) images should me in JPG or PNG
+
+ ### LinkedIn
+ - The LinkedIn design should be in this size: 1200x627 (landscape)
+ - Headline font size (15px)
+ - Speakers font size (7px)
+ - Visuals (designe) images should me in JPG or PNG
