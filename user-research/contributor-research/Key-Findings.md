@@ -45,7 +45,7 @@ These findings should help us understand how to make contributing to Knative bet
  - ### Onboarding Difficulties
  	 - **Complexity of Tools:** Many contributors struggle with understanding and using Docker and Kubernetes. One noted, *"Understanding how Docker works and why Docker is necessary. And also what Kubernetes is, I think those would be really helpful when someone's trying to set it up and start contributing."*
 	 - **Lack of Clear Starting Points**: Many contributors find it difficult to know where to begin. One mentioned, *"When I first assigned myself to a ticket, I just didn't have any idea about how to proceed with it."*
-	- **Specific Documentation**: Some of the existing documentation is not very detailed and some contributors specifically pointed out the absence of clear setup instructions for Mac M1 and WSL. Also, some expressed a strong need for more comprehensive resources, such as tutorials and clearer documentation, to assist them in navigating the project setup process and becoming familiar with its various components and workflows.
+	- **Specific Documentation**: Some existing documentation is not very detailed, and some contributors specifically pointed out the absence of clear setup instructions for Mac M1 and WSL. Also, some expressed a strong need for more comprehensive resources, such as tutorials and clearer documentation, to assist them in navigating the project setup process and becoming familiar with its various components and workflows.
 	- **Intimidation**: The sheer size and complexity of the codebase can be intimidating. One contributor stated, *"Knative is like a super huge project... So I was really overwhelmed at the beginning when I started contributing."*
 	-   **Assumed Background Knowledge**: Onboarding materials often assume a high level of prior technological knowledge. As one maintainer pointed out, *"It assumes that you have a lot of background in technology."*
 	-   **Difficulty Finding Information**: Contributors struggle to find relevant information, especially regarding specific repositories and topics. One said, *"Narrowing down which part should I focus on... is the most difficult part."*
@@ -159,7 +159,7 @@ Overall, the Knative community is rated very highly by contributors, who appreci
 
 - ### **Perceived Value and Reputation of Knative**
 
-	-   **Associations with Reputable Organizations:** Contributors appreciate Knative’s structured environment and its association with reputable organizations like RedHat, Google, and CNCF:  *"Knative is kind of a growing repository, growing project... previously owned by Google and then go to CNCF."*
+	-   **Associations with Reputable Organizations:** Contributors appreciate Knative’s structured environment and its association with reputable organizations like Red Hat, Google, and CNCF: *"Knative is kind of a growing repository, growing project... previously owned by Google and then go to CNCF."*
 	-   **Engineering Excellence:** The project’s reputation for high-quality engineering attracts contributors who want to learn and grow in their careers: *"It has a good reputation in terms of engineering."*
     
 - ### **Community Impact and Contributor Retention**
