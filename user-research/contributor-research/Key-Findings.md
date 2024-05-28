@@ -38,6 +38,8 @@ These findings should help us understand how to make contributing to Knative bet
 	
 	- However, most of them disengage either after not being selected or once their project terms conclude.
 
+This section provides an answer to the first Key Question of this research.
+
 ## Primary Challenges Faced by Contributors
 
 ![alt text](assets/contributor-challenges.png)
@@ -62,7 +64,7 @@ These findings should help us understand how to make contributing to Knative bet
 	 - **Lack of Direct Engagement**: Contributors express a desire for direct interaction with maintainers. They suggested something like Office Hours or One-on-One Mentorship opportunities that could provide them valuable guidance and support, helping them overcome barriers to entry and navigate the project more effectively.
 	 - **Balancing Commitments:** Contributors who are students or have full-time jobs find it challenging to balance their commitments with contributing to Knative. One contributor mentioned, *"I'm also balancing full-time university undergraduate at the same time, so I can't commit too many hours per week to Knative."*
 
-
+This section addresses the second Key Question of the research, particularly focusing on the challenges encountered during onboarding.
 
 ## Primary Challenges Faced by Maintainers
 
@@ -86,6 +88,8 @@ These findings should help us understand how to make contributing to Knative bet
 - ### **Balancing Responsibilities**
 	- Maintainers face the challenge of balancing their own work with the needs of contributors. The frequent need to switch contexts between different tasks and issues adds to their workload: *"One user facing some challenges while like using eventing or like Knative as a whole, and one contributor is trying to get their PR merged or reviewed. And that is, that's the main challenge, ton of context switch."*
 
+This section contains insights aligned with the third and sixth Key Questions of this research.
+
 ## Community Engagement and Interactions
 
 ![alt text](assets/community-engagement.png)
@@ -102,6 +106,8 @@ These findings should help us understand how to make contributing to Knative bet
 	- One-on-one interactions are preferred by some as they find it less intimidating: *"Meeting one on one will be a little bit more helpful instead of having a lot of people talking to me."*
 
 Overall, the Knative community is rated very highly by contributors, who appreciate the quick and helpful responses from maintainers and the collaborative atmosphere: *"If I have to rate it 1 to 10, I would probably rate it 9"*
+
+This section addresses the third Key Question of this research.
 
 ## Reasons for Disengagement
 
@@ -144,7 +150,6 @@ Overall, the Knative community is rated very highly by contributors, who appreci
 	*"There is no clear follow-up to maybe their PR merged."*
 	*"They finish merging their pull request and they stop contributing more. They probably think, okay, I have already finished one task. And they're probably where there's no point to continue to contributing"*
 
-    
 
 - ### **Long-Term Engagement and Burnout**
 
@@ -152,6 +157,8 @@ Overall, the Knative community is rated very highly by contributors, who appreci
 	One maintainer mentioned, *"Some people never really take that next step to go beyond just a good first issue."*
 
 	-   **Maintainer Burnout:** Maintainers might feel overburdened by the need to continuously keep up their individual work, provide extensive guidance to contributors facing challenges, create and manage issues, review pull requests, etc.
+
+This section addresses the fourth and fifth Key Questions of this research.
 
 ## Some Additional Insights
 

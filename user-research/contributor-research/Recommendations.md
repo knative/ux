@@ -1,7 +1,7 @@
 # Recommendations
 
-Based on what we've learned from our research, we strongly suggest putting these recommendations into action. These recommendations aim to make things better for people who contribute to the Knative community. The main goal is to create a dynamic and participatory environment that encourages sustained engagement over time.
-
+Based on what we've learned from our research, we strongly suggest putting these recommendations into action. These recommendations aim to make things better for people who contribute to the Knative community. The main goal is to create a dynamic and participatory environment that encourages sustained engagement over time. 
+The recommendations are based on the key findings and suggestions collected through the interviews.
 ![alt text](assets/recommendations.png)
 
 ## Table of Contents
