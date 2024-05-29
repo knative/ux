@@ -6,43 +6,18 @@ These findings should help us understand how to make contributing to Knative bet
 
 ## Table of Contents
 
-1. [Motivations Behind Contributing to Knative](#motivations-behind-contributing-to-knative)
-2. [Primary Challenges Faced by Contributors](#primary-challenges-faced-by-contributors)
+1. [Primary Challenges Faced by Contributors](#primary-challenges-faced-by-contributors)
+2. [Motivations Behind Contributing to Knative](#motivations-behind-contributing-to-knative)
 3. [Primary Challenges Faced by Maintainers](#primary-challenges-faced-by-maintainers)
 4. [Community Engagement and Interactions](#community-engagement-and-interactions)
 5. [Reasons for Disengagement](#reasons-for-disengagement)
 6. [Some Additional Insights](#some-additional-insights)
 
 
-## Motivations Behind Contributing to Knative
-
-![alt text](assets/motivations.png)
-
-- ### **Learning and Skill Development**
-	- **Real-World Experience**: Many contributors are driven by the desire to learn new cloud-native technologies and many seek real-world application of their programming skills. One contributor noted, *"I feel like the main motivation is skill development because I never had much experience in software development."*
-	- **Upskilling and Competitive Advantage** A maintainer said, *“One (contributor motivation) is, of course, just learning new technologies, people like to just check it out, see if it's something that can give them a competitive advantage either in their company or on their resume.”*
-
-- ### **Networking and Collaboration**
-	- Contributing to Knative provides a platform to interact with professionals from prominent companies. A contributor highlighted this by saying, *"These opportunities to talk to Red Hat full-timers would never present itself outside of, you know, open source development."*   
-
-- ### **Interest in Advanced Technology**
-	- **Technological Appeal**: Contributors are drawn to Knative's modern technologies like serverless computing and event-driven architecture. 
-	- **Specific Interests**: Some contributors are intrigued by certain technical aspects based on their prior experience. For example, a contributor expressed, *"When I started, there was one issue about adding more tests in Knative. Since I was slightly familiar with how it works, I thought it might be a good idea to just add tests."*
-
-- ### **Immediate Needs**
-	- **Company Needs**: Some contributors are driven by the immediate needs of their employers. One explained, *"Maybe the company is using Knative, and they want to get that feature in faster without waiting on the maintainer capacity."*
-	- **Short-term Engagement**: Contributors with some specific goals (such as the one mentioned above) might only stay involved until their objectives are met. A maintainer shared, *"Their involvement is limited to that feature. After that, they disappear."*
-
-- ###  **GSoC and LFX Mentorship:**
-	- Several contributors discover Knative through programs like Google Summer of Code (GSoC) or the Linux Foundation Mentorship (LFX). 
-	
-	- However, most of them disengage either after not being selected or once their project terms conclude.
-
-This section provides an answer to the first Key Question of this research.
 
 ## Primary Challenges Faced by Contributors
 
-![alt text](assets/contributor-challenges.png)
+![A diagram summarizing the challenges faced by contributors, categorized into three main areas: issues and task selection, onboarding difficulties, and additional challenges like demotivation and lack of engagement.](assets/contributor-challenges.png)
 
  - ### Onboarding Difficulties
  	 - **Complexity of Tools:** Many contributors struggle with understanding and using Docker and Kubernetes. One noted, *"Understanding how Docker works and why Docker is necessary. And also what Kubernetes is, I think those would be really helpful when someone's trying to set it up and start contributing."*
@@ -64,11 +39,42 @@ This section provides an answer to the first Key Question of this research.
 	 - **Lack of Direct Engagement**: Contributors express a desire for direct interaction with maintainers. They suggested something like Office Hours or One-on-One Mentorship opportunities that could provide them valuable guidance and support, helping them overcome barriers to entry and navigate the project more effectively.
 	 - **Balancing Commitments:** Contributors who are students or have full-time jobs find it challenging to balance their commitments with contributing to Knative. One contributor mentioned, *"I'm also balancing full-time university undergraduate at the same time, so I can't commit too many hours per week to Knative."*
 
-This section addresses the second Key Question of the research, particularly focusing on the challenges encountered during onboarding.
+This section specifically addresses the second Key Question of the research, which is centered around the challenges encountered during the onboarding process.
+
+
+## Motivations Behind Contributing to Knative
+
+We identified contributor motivations to understand why individuals remain interested in contributing to Knative despite the above outlined challenges. These insights are pivotal for crafting recommendations aimed at enhancing the contributor experience, as they furnish us with a foundational understanding of the prevailing motivations.
+
+![A diagram outlining the motivations behind contributing, including learning and skill development, networking and collaboration, immediate needs, GSoC and LFX mentorship, and interest in advanced technology.](assets/motivations.png)
+
+- ### **Learning and Skill Development**
+	- **Real-World Experience**: Many contributors are driven by the desire to learn new cloud-native technologies and many seek real-world application of their programming skills. One contributor noted, *"I feel like the main motivation is skill development because I never had much experience in software development."*
+	- **Upskilling and Competitive Advantage** A maintainer said, *“One (contributor motivation) is, of course, just learning new technologies, people like to just check it out, see if it's something that can give them a competitive advantage either in their company or on their resume.”*
+
+- ### **Networking and Collaboration**
+	- Contributing to Knative provides a platform to interact with professionals from prominent companies. A contributor highlighted this by saying, *"These opportunities to talk to Red Hat full-timers would never present itself outside of, you know, open source development."*   
+
+- ### **Interest in Advanced Technology**
+	- **Technological Appeal**: Contributors are drawn to Knative's modern technologies like serverless computing and event-driven architecture. 
+	- **Specific Interests**: Some contributors are intrigued by certain technical aspects based on their prior experience. For example, a contributor expressed, *"When I started, there was one issue about adding more tests in Knative. Since I was slightly familiar with how it works, I thought it might be a good idea to just add tests."*
+
+- ### **Immediate Needs**
+	- **Company Needs**: Some contributors are driven by the immediate needs of their employers. One explained, *"Maybe the company is using Knative, and they want to get that feature in faster without waiting on the maintainer capacity."*
+	- **Short-term Engagement**: Contributors with some specific goals (such as the one mentioned above) might only stay involved until their objectives are met. A maintainer shared, *"Their involvement is limited to that feature. After that, they disappear."*
+
+- ###  **GSoC and LFX Mentorship:**
+	- Several contributors discover Knative through programs like Google Summer of Code (GSoC) or the Linux Foundation Mentorship (LFX). 
+	
+	- However, most of them disengage either after not being selected or once their project terms conclude.
+
+This section also provides an answer to the first Key Question of this research.
 
 ## Primary Challenges Faced by Maintainers
 
-![alt text](assets/maintainer-challenges.png)
+Although it may seem slightly tangential, the primary purpose behind identifying the challenges encountered by maintainers is to acknowledge that they, too, operate as contributors at a fundamental level. Understanding their challenges allows us to enhance their experience, which, in turn, can positively impact contributor interactions. By addressing maintainers' challenges, they become better equipped to tackle issues faced by contributors.
+
+![A diagram summarizing the challenges faced by maintainers, including contributor engagement and management, onboarding new contributors, identifying suitable tasks, and handling pull requests, while balancing their other responsibilities.](assets/maintainer-challenges.png)
 
 - ### **Contributor Engagement and Management** 
 	- Maintainers often struggle with inconsistent participation from contributors. Contributors may take on issues but then become unresponsive, leaving work incomplete. This stalls progress (especially if there is a timeline associated with a ticket) and creates uncertainty about how to proceed. One maintainer expressed this dilemma: *"Should I like make a PR to override their work … I don't want to do that... Or should I just do that myself? Or should I just wait forever?"*
@@ -92,7 +98,7 @@ This section contains insights aligned with the third and sixth Key Questions of
 
 ## Community Engagement and Interactions
 
-![alt text](assets/community-engagement.png)
+![A diagram outlining the community engagement and interactions: a welcoming and supportive environment, responsiveness and accessibility, and highlighting a preference for communication via Slack, DMs, and GitHub over meetings.](assets/community-engagement.png)
 
 - ### **Welcoming and Supportive Community**
 	- Many contributors feel welcomed and supported by the Knative community. The maintainers and other community members are responsive and patient, creating an encouraging environment for both new and experienced contributors: *"I don't know how to say that, but like, I feel welcome."*
@@ -111,7 +117,7 @@ This section addresses the third Key Question of this research.
 
 ## Reasons for Disengagement
 
-![alt text](assets/reasons-for-disengagement.png)
+![A diagram summarizing the reasons for disengagement, which include personal and professional priorities, technical challenges, lack of immediate rewards, need for mentorship and ongoing support, and challenges in sustaining long-term engagement and burnout.](assets/reasons-for-disengagement.png)
 
 - ### **Personal and Professional Priorities**
 
@@ -162,7 +168,9 @@ This section addresses the fourth and fifth Key Questions of this research.
 
 ## Some Additional Insights
 
-![alt text](assets/additional-insights.png)
+These insights and findings are grouped separately because they didn't neatly fit into the existing categories. They sparked our interest during the analysis and could potentially provide valuable additional perspectives or recommendations.
+
+![A diagram outlining additional insights related to contributing to Knative, focusing on its perceived value and reputation, the impact of community and contributor retention, and the contribution types and expectations.](assets/additional-insights.png)
 
 - ### **Perceived Value and Reputation of Knative**
 

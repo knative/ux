@@ -13,8 +13,9 @@ The suggested actionable recommendations based on the key findings can be found 
 1. [Methods Used](#methods-used)
 2. [Demographics](#demographics)
 3. [Limitations and Future Work](#limitations-and-future-work)
-4. [Resources & Bibliography](#resources--bibliography)
-5. [Closing Thoughts](#closing-thoughts)
+4. [Research Resources](#research-resources)
+5. [Bibliography](#bibliography)
+6. [Closing Thoughts](#closing-thoughts)
 
 
 
@@ -71,12 +72,13 @@ Since the Participants varied in their experience levels, current roles, and lev
 | More than 12 months                  | 2                                     |
 
 `*` Some full-time students indicated that they were also working while studying.
+
 `**` Duration of involvement at time of the interview.
 
-![alt text](assets/exp-levels-chart.png)
-![alt text](assets/education-work-chart.png)
-![alt text](assets/contributor-category-chart.png)
-![alt text](assets/duration-of-involvement-chart.png)
+![A pie chart showing the distribution of experience levels within the 12 participants. The largest segment, representing Early-Career individuals, comprises 41.7% of the group. The next largest segment, Student/Entry-Level, makes up 33.3%, followed by Senior Professionals at 25.0%.](assets/exp-levels-chart.png) 
+![A bar graph showing the education and work status of 12 participants reveals that the majority, 7 out of 12, are full-time students. The remaining participants are divided among those working full-time or part-time on Knative (4 participants) and those working full-time or part-time not on Knative (1 participant).](assets/education-work-chart.png)
+![A pie chart showing the distribution of contributor categories within the 12 participants, with Maintainers being the largest group (33.3%), followed by Inactive Contributors and Active Contributors (both 25.0%), and lastly New Contributors (16.7%).](assets/contributor-category-chart.png)
+![A line graph showing the duration of involvement in Knative for the 12 participants. The graph shows that 5 participants have been involved for less than 6 months, another 5 for 6-12 months, and 2 for more than 12 months.](assets/duration-of-involvement-chart.png)
 
 
 
@@ -102,15 +104,14 @@ This work was completed within the 12-week timeframe of the LFX mentorship progr
 
 > Despite the mentioned limitations, the data collected from the interviews was substantial and diverse. Notably, connecting with three inactive contributors provided valuable insights. The next phase will focus on implementing the recommendations and assessing their success in improving the developer experience within the Knative community!
 
-## Resources & Bibliography
 
-### Research Resources
+## Research Resources
 - [contributors.json](https://github.com/aliok/knative-contrib-report/blob/main/250-build-contributor-list/contributors.json)
 - [Interview Questions](https://docs.google.com/document/d/16uqV_zltMGxsveRPMImqM4oeBREW87ZeRU3Jz1zveto/edit?usp=sharing)
-- [Interview Data Analysis](Figjam-Link)
+- [Interview Data Analysis](https://www.figma.com/board/hSn9w3RyxMzuG8207WEiKY/Untitled?t=n5Ui1Ycw0zvm9riO-1)
 - [Knative Developer Survey](https://forms.gle/JHPhbYtWBWoLwmHs6)
 
-### Literature Studied:
+## Bibliography
 *Note: The literature review was not the primary methodology but provided valuable context and background to inform the research design.*
 
 - **What brings you to open source?** *Author: Sophia Vargas, Researcher, Open Source Programs Office Google*
@@ -122,4 +123,28 @@ Contributor Disengagement in Open Source.** *Author: Courtney Miller (New Colleg
 
 ## Closing Thoughts
 
-<!--work in progress-->
+
+This research successfully identified key challenges in the current Knative contributor experience, along with some maintainer-specific challenges. The recommendations provided aim to simplify and enhance the experience for everyone involved in the Knative community, with the hope of fostering significant improvements.
+
+We started this project with the **goals** of understanding the current contributor journey (please refer [Introduction.md](Introduction.md)), identifying factors that influence contributors' decisions to stay or leave, and highlighting areas for improvement. Through our research, we achieved these goals by studying the existing journey, pinpointing key disengagement factors, and proposing actionable recommendations to enhance retention.
+
+Additionally, our **objectives**—gathering insights into the onboarding process, exploring the experiences of both retained and departed contributors, identifying pain points, investigating the effectiveness of existing resources, and determining potential interventions—were all met. The key questions driving this research were answered through the key findings, each mapped to specific questions.
+
+#### Regarding the hypotheses:
+
+1. **Positive Onboarding Experience**:
+    - **Hypothesis**: Contributors who have a positive onboarding experience, are proactive, and receive clear guidance and support are more likely to stay engaged with the Knative community.
+    - **Findings**: Evidence from interviews showed that proactive contributors who asked questions and received prompt support had better onboarding experiences. For example, one active contributor mentioned how a maintainer's helpfulness and clear explanations greatly supported their early contributions. Another contributor emphasized their persistence and use of some specific documentation sent by a maintainer to overcome initial challenges, highlighting the importance of proactive engagement.
+
+2. **Perceived Value and Future Opportunities**:
+    - **Hypothesis**: Factors such as perceived value of contributions, prospective future opportunities, and alignment with personal or professional goals influence contributors' decisions to remain active in the project.
+    - **Findings**: Contributors expressed that their continued engagement depended on seeing tangible benefits and alignment with their goals. One past contributor mentioned that knowing about potential opportunities for advancement, such as becoming a maintainer, would have encouraged them to stay longer. Another past contributor noted that they would remain active if their work in Knative aligned with their professional needs or personal benefits.
+
+3. **Challenges Leading to Disengagement**:
+    - **Hypothesis**: Contributors may disengage due to challenges like unclear contribution processes, technical knowledge barriers, insufficient or delayed feedback, lack of recognition, community integration issues, and personal factors such as heavy workloads or limited free time.
+    - **Findings**: The primary reasons for disengagement  included time constraints due to jobs or studies and the complexity of navigating Knative's contribution processes. Interviews revealed that some contributors struggled with the technical complexity and found initial contributions challenging. Concerns about insufficient recognition and the unpaid nature of open-source contributions were also highlighted. For instance, one felt that beyond a 'thank you' from maintainers, there were few tangible rewards for contributors' efforts, affecting their motivation to stay engaged. *However, issues related to insufficient feedback and community integration were not mentioned in the interviews.*
+
+In conclusion, as we embark on the journey to enhance the Knative developer experience, I am reminded of the words of Helen Keller: "Alone we can do so little; together we can do so much..." During my time working on this project, I realized that each contributor, whether new, active, or inactive, forms a vital part of the Knative ecosystem, and every individual’s contributions and experiences are valuable, no matter how big or small they are. Each person's unique input adds to the richness of the community and helps drive the project forward!
+Therefore, I truly believe that by addressing the challenges identified in this research and implementing the actionable recommendations, we can not only improve the developer experience for all but also strengthen the bonds that tie us together as a community!
+
+Thank you to all who have contributed to this research and to my mentors who supported me throughout and played an important role in this effort.

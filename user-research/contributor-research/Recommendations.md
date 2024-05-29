@@ -2,7 +2,8 @@
 
 Based on what we've learned from our research, we strongly suggest putting these recommendations into action. These recommendations aim to make things better for people who contribute to the Knative community. The main goal is to create a dynamic and participatory environment that encourages sustained engagement over time. 
 The recommendations are based on the key findings and suggestions collected through the interviews.
-![alt text](assets/recommendations.png)
+
+![A diagram outlining various recommendations, including scheduled office hours, improving the onboarding process, enhancing issue labeling practices, personalized one-on-one meetings, monthly community hangout calls, revamping social media presence, implementing survey-style feedback mechanisms, and establishing clear growth paths in the community.](assets/recommendations.png)
 
 ## Table of Contents
 - [Improving the Onboarding Process](#improving-the-onboarding-process)
