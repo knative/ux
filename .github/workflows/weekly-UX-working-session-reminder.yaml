@@ -16,8 +16,8 @@ name: 'Weekly UX working session reminder'
 
 on:
   workflow_dispatch:
-  schedule: ## At 1:55 PM UTC on every other Thursdays
-    - cron: 55 13 * * MON
+  schedule: ## At 1:55 PM UTC on every other Mondays
+    - cron: 00 14 * * MON
 
 jobs:
   remind:
@@ -34,4 +34,4 @@ jobs:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           MSG_MINIMAL: 'true'
           SLACK_CHANNEL: 'knative-ux'
-          SLACK_MESSAGE: The weekly UX working session is happening in 5 min. Please join the [zoom meeting](https://zoom.us/j/98769530546), and add your agenda items to the [meeting notes](https://docs.google.com/document/d/1VCObP1IQFPDGzGG5KIgytQwX7RrU0tyeB7FGjkY0pPk/edit#heading=h.j4qyv6ihneq3)
+          SLACK_MESSAGE: The weekly UX working session will be happening tomorrow at this time. Please join the [zoom meeting](https://zoom.us/j/98769530546), and add your agenda items to the [meeting notes](https://docs.google.com/document/d/1VCObP1IQFPDGzGG5KIgytQwX7RrU0tyeB7FGjkY0pPk/edit#heading=h.j4qyv6ihneq3)
