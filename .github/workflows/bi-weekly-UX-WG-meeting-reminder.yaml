@@ -1,0 +1,67 @@
+# Copyright 2024 The Knative Authors.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+name: 'Bi-weekly UX WG meeting reminder'
+
+env:
+  # The date of the first run of the action. It has to be set to a date that is on the same weekday as the cron.
+  # 12/11 is Monday, so the cron is set to run on Monday.
+  # Every second week of the bi-weekly cycle, the action is going to be skipped.
+  # The cron time can be set to any time of the day.
+  FIRST_RUN_DATE: 2024-06-27
+
+on:
+  workflow_dispatch:
+  schedule: ## At 13:00 UTC on every other Wednesday (One day before the UX WG meeting)
+    - cron: 00 13 * * 3
+
+jobs:
+  weekindex:
+    runs-on: ubuntu-latest
+    outputs:
+      weekindex: ${{ steps.calculate.outputs.weekindex }}
+    steps:
+      - name: Calculate weekdiff
+        id: calculate
+        run: |
+          current_date=$(date +%Y-%m-%d)
+          start=$(date -d ${{ env.FIRST_RUN_DATE }} +%s)
+          end=$(date -d $current_date +%s)
+          weekdiff=$(((end-start) / 60 / 60 / 24 / 7))
+          weekindex=$((weekdiff % 2))
+          echo "weekindex=$weekindex" >> "$GITHUB_OUTPUT"
+          echo "FIRST_RUN_DATE: ${{ env.FIRST_RUN_DATE }}" >> $GITHUB_STEP_SUMMARY
+          echo "current_date: $current_date" >> $GITHUB_STEP_SUMMARY
+          echo "weekdiff: $weekdiff" >> $GITHUB_STEP_SUMMARY
+          echo "weekindex: $weekindex" >> $GITHUB_STEP_SUMMARY
+          if [ $weekindex -eq 0 ]; then
+            echo "🟢 It's the first week of the bi-weekly cycle. The action is going to run." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "🔴 It's the second week of the bi-weekly cycle. The action is going to be skipped." >> $GITHUB_STEP_SUMMARY
+          fi
+  remind:
+    name: biweekly-ux-wg-meeting-reminder
+    if: ${{ needs.weekindex.outputs.weekindex == 0 }}
+    runs-on: 'ubuntu-latest'
+    steps:
+      - name: Post reminder to Slack
+        uses: rtCamp/action-slack-notify@v2.2.1
+        env:
+          SLACK_ICON: http://github.com/knative.png?size=48
+          SLACK_USERNAME: github-actions
+          SLACK_TITLE: Bi-weekly UX WG meeting reminder
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          MSG_MINIMAL: 'true'
+          SLACK_CHANNEL: 'knative-ux'
+          SLACK_MESSAGE: The bi-weekly UX WG meeting will be happening tomorrow at this time. You can join the [zoom meeting](https://zoom.us/j/98769530546), and add your agenda items to the [meeting notes](https://docs.google.com/document/d/1VCObP1IQFPDGzGG5KIgytQwX7RrU0tyeB7FGjkY0pPk/edit#heading=h.j4qyv6ihneq3)
