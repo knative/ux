@@ -23,7 +23,7 @@ env:
 
 on:
   workflow_dispatch:
-  schedule: ## At 1PM UTC on every other Wednesday
+  schedule: ## At 1PM UTC on every other Wednesday (1 day before the meeting time, which is 1 PM UTC on every other Thursday)
     - cron: 0 13 * * 3
 
 jobs:
