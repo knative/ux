@@ -19,12 +19,12 @@ env:
   # 12/11 is Monday, so the cron is set to run on Monday.
   # Every second week of the bi-weekly cycle, the action is going to be skipped.
   # The cron time can be set to any time of the day.
-  FIRST_RUN_DATE: 2024-06-27
+  FIRST_RUN_DATE: 2024-06-26
 
 on:
   workflow_dispatch:
-  schedule: ## At 13:00 UTC on every other Wednesday (One day before the UX WG meeting)
-    - cron: 00 13 * * 3
+  schedule: ## At 1PM UTC on every other Wednesday (1 day before the meeting time, which is 1 PM UTC on every other Thursday)
+    - cron: 0 13 * * 3
 
 jobs:
   weekindex:
@@ -64,4 +64,4 @@ jobs:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           MSG_MINIMAL: 'true'
           SLACK_CHANNEL: 'knative-ux'
-          SLACK_MESSAGE: The bi-weekly UX WG meeting will be happening tomorrow at this time. You can join the [zoom meeting](https://zoom.us/j/98769530546), and add your agenda items to the [meeting notes](https://docs.google.com/document/d/1VCObP1IQFPDGzGG5KIgytQwX7RrU0tyeB7FGjkY0pPk/edit#heading=h.j4qyv6ihneq3)
+          SLACK_MESSAGE: The bi-weekly UX WG meeting will be happening tomorrow at this time (in 24 hours). You can join the [zoom meeting](https://zoom.us/j/98769530546), and add your agenda items to the [meeting notes](https://docs.google.com/document/d/1VCObP1IQFPDGzGG5KIgytQwX7RrU0tyeB7FGjkY0pPk/edit#heading=h.j4qyv6ihneq3)
