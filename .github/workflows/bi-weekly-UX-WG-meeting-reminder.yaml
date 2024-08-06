@@ -52,6 +52,7 @@ jobs:
           fi
   remind:
     name: biweekly-ux-wg-meeting-reminder
+    needs: weekindex
     if: ${{ needs.weekindex.outputs.weekindex == 0 }}
     runs-on: 'ubuntu-latest'
     steps:
