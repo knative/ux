@@ -32,7 +32,7 @@ This repository contains the research report and supporting materials for improv
 
 ## Project Management
 
-The research process was tracked using the [Eventing Onboarding Research Project Board](https://github.com/orgs/knative/projects/2/views/1). Tasks were organized into iterations to ensure progress tracking and timely deliverables.
+The research process was tracked using the [Eventing Onboarding Research Project Board](https://github.com/orgs/knative/projects/82/views/1). Tasks were organized into iterations to ensure progress tracking and timely deliverables.
 
 ---
 
