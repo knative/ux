@@ -21,9 +21,8 @@ This initiative is part of the **LFX Mentorship Program** and reflects a commitm
 
 Upon completion of the research, the deliverables will be shared with the wider **CNCF community**, alongside the execution details of the project, to support other projects facing similar challenges.
 
----
 
-## 2. Key Takeaways
+### 1.1. Key Takeaways
 
 To provide a quick overview of the research outcomes, this section summarizes the most critical challenges and actionable insights identified during the study. These findings highlight key barriers faced by new Knative Eventing users and offer a foundation for targeted improvements to the onboarding process.
 
@@ -36,9 +35,9 @@ To provide a quick overview of the research outcomes, this section summarizes th
 
 ---
 
-## 3. Research Overview and Goals
+## 2. Research Overview and Goals
 
-### 3.1. Scope Definition
+### 2.1. Scope Definition
 
 The scope of this research project encompasses the entire onboarding experience for new users of Knative Eventing. The focus is on identifying and addressing the main challenges that users face during their initial interactions, improving the documentation, and enhancing the overall user experience. This includes:
 
@@ -58,14 +57,14 @@ The scope of this research project encompasses the entire onboarding experience 
 
 ---
 
-### 3.2. Limitations and Exclusions
+### 2.2. Limitations and Exclusions
 
 - **Exclusions**: This research will not cover advanced Knative Eventing features used by experienced users, nor will it delve into unrelated components of the Knative ecosystem. It will also exclude development changes to the Knative Eventing codebase itself, focusing instead on user-facing aspects.
 - **Limitations**: The study is limited to the 12-week timeframe of the LFX Mentorship program, which may restrict the depth of certain analyses and the scope of iterative testing cycles.
 
 ---
 
-### 3.3. Identification of the Current Challenges
+### 2.3. Identification of the Current Challenges
 
 Understanding the existing challenges is crucial for improving the onboarding experience. The research aims to:
 
@@ -80,7 +79,7 @@ Understanding the existing challenges is crucial for improving the onboarding ex
 
 ---
 
-### 3.4. Research Findings
+### 2.4. Research Findings
 
 Effective documentation is critical to improving the accessibility and user experience of Knative Eventing's onboarding process. This initial insight serves as a foundation for enhancing the documentation structure, content clarity, and usability. Identified areas of improvement include:
 - Addressing complex jargon.
