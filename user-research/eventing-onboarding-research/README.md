@@ -7,6 +7,7 @@ This repository contains the research report and supporting materials for improv
 ## Table of Contents
 
 1. [Executive Summary](./Introduction.md#executive-summary)  
+   - [Key Takeaways](./Introduction.md#key-takeaways)    
 2. [Research Overview and Goals](./Introduction.md#research-overview-and-goals)  
    - [Scope Definition](./Introduction.md#scope-definition)  
    - [Identification of the Current Challenges](./Introduction.md#identification-of-the-current-challenges)  
