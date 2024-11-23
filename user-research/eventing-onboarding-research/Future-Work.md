@@ -71,8 +71,6 @@ A comprehensive list of all sources cited in the report, including:
 - Online resources.
 - Tools used during the research.
 
-Proper citation of these references will ensure the report is academically rigorous and provides a solid foundation for the recommendations made.
+Proper citation of these references will be presented here and ensure the report is academically rigorous and provides a solid foundation for the recommendations made.
 
 ---
-
-These forthcoming sections will enrich the final report, ensuring it serves as a comprehensive resource for stakeholders looking to enhance the Knative Eventing onboarding experience.
