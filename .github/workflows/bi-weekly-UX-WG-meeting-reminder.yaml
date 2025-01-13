@@ -16,15 +16,14 @@ name: "Bi-weekly UX WG meeting reminder"
 
 env:
   # The date of the first run of the action. It has to be set to a date that is on the same weekday as the cron.
-  # 12/11 is Monday, so the cron is set to run on Monday.
   # Every second week of the bi-weekly cycle, the action is going to be skipped.
   # The cron time can be set to any time of the day.
-  FIRST_RUN_DATE: 2024-09-30
+  FIRST_RUN_DATE: 2025-01-14
 
 on:
   workflow_dispatch:
-  schedule: ## At 6PM UTC on every other Monday (1 day before the meeting time, which is 6 PM UTC on every other Tuesday)
-    - cron: 0 18 * * 1
+  schedule: ## At 2PM UTC on every other Tuesday (1 day before the meeting time, which is 2 PM UTC on every other Wednesday)
+    - cron: 0 14 * * 2
 
 jobs:
   weekindex:
